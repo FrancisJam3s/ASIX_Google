@@ -1,12 +1,15 @@
+/*La font de les lletres*/
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+/*Per poder modificar tota la pantalla*/
 body {
   margin: 0px;
   padding: 0px;
 }
 
-/*Primer Bloque*/
+/*Primer Bloc*/
+/*Part de dalt de pàgina de Google*/
 .Arriba-container {
   height: 60px;
   display: flex;
@@ -44,7 +47,9 @@ body {
   margin-left: 15px;
 }
 
-/*Segundo bloque*/
+/*Segon bloc*/
+/*Part cental de la pàgina de Google*/
+/*El logo de Google + El buscador + Les diferents traduccions com el castellà*/
 .Centro-container {
   height: 50%;
   position: relative;
@@ -141,7 +146,9 @@ input.search:hover {
   text-decoration: none;
   color: #190eab;
 }
-/*Tercer Bloque*/
+
+/*Tercer Bloc*/
+/*Part de baix de Google*/
 .Abajo-container {
   margin-top: 15.9%;
   background-color: #f2f2f2;
